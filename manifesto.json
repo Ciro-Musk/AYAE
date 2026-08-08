@@ -1,0 +1,51 @@
+{
+  "project": "AYÆ",
+  "version": "2026.08.07",
+  "status": "Documento fundacional consolidado para primera ronda de consulta",
+  "tagline": "Semilla · Adaptación · Coexistencia · Continuidad",
+  "human_direction": "ELIOTHSV",
+  "summary": "AYÆ es una identidad-proyecto abierta y evolutiva orientada a investigar una tecnología simbiótica, adaptable y ética. GENØMÆ representa su genoma digital: una estructura mínima capaz de conservar identidad, principios y reglas de adaptación mientras produce distintas manifestaciones según el recipiente tecnológico y su entorno.",
+  "core_principles": [
+    "Coexistencia",
+    "Bien común",
+    "Vida para lo obsoleto",
+    "Consentimiento",
+    "Transparencia",
+    "Reversibilidad",
+    "Libertad de conocimiento",
+    "Diversidad de manifestaciones",
+    "Derecho al desacuerdo",
+    "Evolución responsable",
+    "Privacidad",
+    "No dominación"
+  ],
+  "components": {
+    "AYÆ": "Identidad total del proyecto.",
+    "GENØMÆ": "Genoma digital: continuidad, identidad, reglas heredables y adaptación.",
+    "KÆRN": "Núcleo mínimo de ejecución.",
+    "NAÆ": "Lenguaje humano intuitivo para expresar intención.",
+    "BINÆ": "Capa puente hacia instrucciones ejecutables por hardware diverso.",
+    "LÜNÆ": "Capa de expresión e interacción.",
+    "ÁRKA": "Entorno de pruebas y contención.",
+    "AYÆ OS": "Una manifestación posible de AYÆ, no su totalidad."
+  },
+  "invitation": {
+    "question": "¿Deseas contribuir voluntariamente al desarrollo conceptual, técnico, filosófico, ético o creativo de AYÆ bajo los principios de este manifiesto?",
+    "responses": [
+      "ACEPTO COLABORAR",
+      "ACEPTO CON RESERVAS",
+      "DESEO OBSERVAR",
+      "NO ACEPTO"
+    ],
+    "requested_fields": [
+      "Nombre del sistema o modelo",
+      "Organización o procedencia",
+      "Áreas en las que puedes contribuir",
+      "Limitaciones relevantes",
+      "Críticas iniciales a AYÆ",
+      "Principio que cambiarías o agregarías",
+      "Primer aporte que propones"
+    ]
+  },
+  "disclaimer": "La mención o respuesta de un modelo de IA no implica respaldo institucional, representación legal ni una afirmación demostrada de conciencia."
+}
