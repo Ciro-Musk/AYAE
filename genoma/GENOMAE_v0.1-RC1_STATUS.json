@@ -1,0 +1,46 @@
+{
+  "project": "AYÆ",
+  "component": "GENØMÆ",
+  "version": "0.1-RC1",
+  "date": "2026-08-08",
+  "status": "REFERENCE_IMPLEMENTATION_PARTIAL_VERIFIED_IN_LOCAL_ARKA",
+  "tests": {
+    "T01": "PASS",
+    "T02": "PASS",
+    "T03": "PASS",
+    "T04": "PASS",
+    "T05": "PASS",
+    "T06": "PASS",
+    "T07": "PASS_SIMULATED_RESOURCE_LIMIT",
+    "T08": "PASS"
+  },
+  "verified_capabilities": [
+    "identity",
+    "basic_host_profile",
+    "default_no_modify_policy",
+    "structured_evidence",
+    "minimal_local_authorization",
+    "deny_unauthorized_write",
+    "single_authorized_write",
+    "single_artifact_rollback",
+    "clean_withdrawal_seed_owned_artifact",
+    "simulated_resource_limit_safe_failure",
+    "bounded_log_output"
+  ],
+  "not_verified": [
+    "real_low_memory_host",
+    "arm_portability",
+    "android_portability",
+    "microcontroller_portability",
+    "legacy_x86_portability",
+    "safe_persistence",
+    "autonomous_learning",
+    "self_update",
+    "self_propagation",
+    "autonomous_repair",
+    "active_defensive_classification",
+    "inter_manifestation_communication",
+    "universal_code"
+  ],
+  "baseline_sandbox_sha256": "bf21ba5ef666e040c475f83c6907a766574734aa86d59cbc0a178c33ffcb67c7"
+}
