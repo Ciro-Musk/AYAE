@@ -1,0 +1,52 @@
+{
+  "project": "AYÆ",
+  "act": "ACTA-002",
+  "date": "2026-08-08",
+  "round": 2,
+  "participants": [
+    "DeepSeek",
+    "Gemini",
+    "Grok 4.5"
+  ],
+  "results": {
+    "CAND-001": {
+      "DeepSeek": "APOYAR",
+      "Gemini": "APOYAR",
+      "Grok": "APOYAR",
+      "consensus": "UNANIMO"
+    },
+    "CAND-002": {
+      "DeepSeek": "APOYAR",
+      "Gemini": "MODIFICAR",
+      "Grok": "APOYAR",
+      "consensus": "ADOPTABLE_CON_MODIFICACION"
+    },
+    "CAND-003": {
+      "DeepSeek": "APOYAR_CON_MODIFICACION",
+      "Gemini": "APOYAR",
+      "Grok": "APOYAR",
+      "consensus": "UNANIMO_CON_AJUSTES"
+    },
+    "CAND-004": {
+      "DeepSeek": "APOYAR",
+      "Gemini": "APOYAR",
+      "Grok": "APOYAR",
+      "consensus": "UNANIMO"
+    },
+    "CAND-005": {
+      "DeepSeek": "APOYAR",
+      "Gemini": "APOYAR",
+      "Grok": "APOYAR",
+      "consensus": "UNANIMO"
+    },
+    "CAND-006": {
+      "DeepSeek": "APOYAR",
+      "Gemini": "MODIFICAR",
+      "Grok": "APOYAR",
+      "consensus": "ADOPTABLE_CON_MODIFICACION"
+    }
+  },
+  "proposed_status": "PRINCIPIOS_MECANISMOS_PROVISIONALES_GENOMAE_V0.1",
+  "epistemic_status": "HIPOTESIS_VERIFICACION_PENDIENTE_EN_ARKA",
+  "first_experiment": "AYAE-ARKA-001_ESPEJO_DE_SOLO_LECTURA"
+}
