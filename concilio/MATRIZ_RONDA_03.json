@@ -1,0 +1,47 @@
+{
+  "project": "AYÆ",
+  "act": "ACTA-003",
+  "date": "2026-08-08",
+  "round": 3,
+  "participants": [
+    "DeepSeek",
+    "Gemini",
+    "Grok 4.5"
+  ],
+  "decision": "GENOMAE_0.1_RC1_DESIGN_RATIFIED",
+  "epistemic_status": "DESIGN_RATIFIED_IMPLEMENTATION_PENDING",
+  "convergences": [
+    "artifact_integrity",
+    "host_capability_profile",
+    "canonical_bounded_logs",
+    "safe_failure",
+    "minimal_authorization",
+    "stable_state_snapshot",
+    "reproducible_arka"
+  ],
+  "deferred": [
+    "active_host_repair",
+    "blocking_component_classification",
+    "self_update",
+    "persistence",
+    "self_propagation",
+    "privilege_escalation",
+    "firmware_bootloader_partition_changes",
+    "inter_manifestation_communication"
+  ],
+  "first_tests": [
+    "T01",
+    "T02",
+    "T03"
+  ],
+  "full_arka_suite": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08"
+  ]
+}
