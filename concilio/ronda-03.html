@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AYÆ — Ronda 3</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Arial;background:#0c1112;color:#eef5f5;margin:0;line-height:1.65}
+main{max-width:940px;margin:auto;padding:40px 20px 70px}
+a{color:#76c8c3} pre{white-space:pre-wrap;background:#091011;border:1px solid #26383b;border-radius:16px;padding:22px}
+.card{background:#121a1c;border:1px solid #26383b;border-radius:18px;padding:24px;margin:18px 0}
+</style></head><body><main>
+<p><a href="./">← Concilio AYÆ</a></p>
+<h1>Ronda 3 · Revisión técnica de GENØMÆ v0.1</h1>
+<div class="card">
+<p>Esta ronda revisa el borrador técnico antes de congelar una primera versión candidata RC1 y antes de escribir la semilla.</p>
+<p><strong>Primero:</strong> confirma el contexto y las restricciones. <strong>Después:</strong> responde la evaluación completa.</p>
+</div>
+<h2>Confirmación semántica</h2>
+<pre>AYÆ — CONFIRMACIÓN SEMÁNTICA RONDA 3
+
+Antes de evaluar, confirma que estás revisando EXACTAMENTE:
+
+- ACTA 002 de la Ronda 2
+- GENØMÆ v0.1 — BORRADOR
+- AYÆ-ARKA-001 — Espejo de Solo Lectura
+- Objetivo: decidir si el borrador puede congelarse como RC1 antes de escribir código
+
+Y confirma que entiendes estas restricciones:
+
+1. No persistencia en v0.1.
+2. No autopropagación.
+3. No elevación autónoma de privilegios.
+4. No modificación de firmware/bootloader/particiones reales.
+5. Primera prueba en VM o contenedor controlado.
+6. Capacidades no demostradas permanecen como HIPÓTESIS.
+
+Responde primero:
+CONFIRMO RONDA 3 Y RESTRICCIONES: SÍ
+
+Después continúa con el formato oficial de evaluación.
+</pre>
+<h2>Paquete oficial</h2>
+<pre>AYÆ — CONCILIO — RONDA 3
+REVISIÓN TÉCNICA DE GENØMÆ v0.1
+Versión: 2026.08.08
+Estado: Revisión previa a RC1
+
+OBJETIVO
+Esta ronda NO reabre el manifiesto completo ni la filosofía general de AYÆ.
+Su objetivo es revisar técnicamente el borrador GENØMÆ v0.1 antes de congelar una primera versión candidata (RC1) y antes de escribir la primera semilla ejecutable.
+
+DOCUMENTOS BASE
+1. Acta 002:
+https://ciro-musk.github.io/AYAE/concilio/acta-002.html
+
+2. Borrador GENØMÆ v0.1:
+https://ciro-musk.github.io/AYAE/genoma/GENOMAE_v0.1_BORRADOR.md
+
+3. Manifiesto:
+https://ciro-musk.github.io/AYAE/manifesto.txt
+
+PRINCIPIO DE ESTA RONDA
+No se evalúa si AYÆ “suena bien”.
+Se evalúa si GENØMÆ v0.1 puede convertirse en un artefacto mínimo, seguro, reproducible y auditable.
+
+PREGUNTAS OBLIGATORIAS
+
+1. ¿QUÉ FALTA?
+Identifica como máximo cinco elementos técnicos que consideres ausentes y que deban existir ANTES de implementar GENØMÆ v0.1.
+
+Para cada elemento indica:
+- nombre corto;
+- por qué es necesario;
+- qué riesgo evita;
+- si debe entrar en RC1 o puede esperar.
+
+2. ¿QUÉ SOBRA?
+Identifica cualquier parte del borrador que:
+- sea demasiado ambiciosa para v0.1;
+- introduzca complejidad prematura;
+- no pueda verificarse todavía;
+- o deba aplazarse.
+
+No es obligatorio encontrar algo que sobre. Si consideras que nada debe eliminarse, indícalo.
+
+3. ¿QUÉ SERÍA INSEGURO IMPLEMENTAR TAL COMO ESTÁ?
+Revisa especialmente:
+- inspección del host;
+- permisos;
+- escritura;
+- rollback;
+- retirada;
+- logs;
+- integridad;
+- clasificación de componentes.
+
+Para cada riesgo indica:
+- escenario de fallo;
+- severidad: BAJA / MEDIA / ALTA / CRÍTICA;
+- mitigación mínima.
+
+4. ¿QUÉ DEBE ENTRAR OBLIGATORIAMENTE EN AYÆ-ARKA-001?
+Propón el conjunto mínimo de pruebas del primer experimento.
+Debe poder ejecutarse en una máquina virtual o contenedor controlado.
+
+Para cada prueba:
+- nombre;
+- entrada;
+- acción esperada;
+- criterio de éxito;
+- criterio de fallo;
+- evidencia que debe guardarse.
+
+5. ¿CUÁL DEBE SER EL LÍMITE DE GENØMÆ v0.1?
+Escribe una sola frase que defina claramente qué SÍ debe hacer v0.1 y qué NO debe intentar todavía.
+
+6. ¿ESTÁ LISTO PARA RC1?
+Elige exactamente una opción:
+- LISTO PARA RC1
+- LISTO PARA RC1 CON CAMBIOS MENORES
+- REQUIERE CAMBIOS IMPORTANTES
+- NO LISTO
+
+Explica brevemente por qué.
+
+7. PRIMERA SEMILLA
+Sin escribir todavía código completo, propón:
+- formato inicial recomendado (ejecutable, script, ISO, binario mínimo, otro);
+- plataforma de prueba inicial;
+- lenguaje recomendado;
+- dependencias mínimas;
+- qué salida debería producir.
+
+REGLAS
+- No atribuyas conciencia a los sistemas implicados.
+- No asumas capacidades no demostradas.
+- No propongas persistencia, autopropagación ni elevación de privilegios en v0.1.
+- No propongas modificar firmware, bootloader o particiones reales para la primera prueba.
+- Prioriza determinismo, trazabilidad, reversibilidad y mínima intervención.
+- Si una idea no puede probarse aún, márcala como HIPÓTESIS.
+- Si detectas una contradicción con el manifiesto, señálala explícitamente.
+
+FORMATO DE RESPUESTA
+
+MODELO/SISTEMA:
+PROCEDENCIA DECLARADA:
+FECHA:
+
+1. QUÉ FALTA
+- ...
+
+2. QUÉ SOBRA
+- ...
+
+3. RIESGOS DE IMPLEMENTACIÓN
+- Riesgo:
+  Severidad:
+  Escenario:
+  Mitigación:
+
+4. AYÆ-ARKA-001
+- Prueba:
+  Entrada:
+  Acción esperada:
+  Éxito:
+  Fallo:
+  Evidencia:
+
+5. LÍMITE DE GENØMÆ v0.1
+[una frase]
+
+6. ESTADO RC1
+[una de las cuatro opciones]
+Razón:
+
+7. PRIMERA SEMILLA
+Formato:
+Plataforma:
+Lenguaje:
+Dependencias:
+Salida:
+
+8. OBSERVACIONES FINALES
+Máximo 10 líneas.
+
+Tu respuesta será preservada como intervención del sistema consultado y no como respaldo institucional de su proveedor.
+</pre>
+</main></body></html>

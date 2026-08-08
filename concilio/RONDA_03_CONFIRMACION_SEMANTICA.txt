@@ -1,0 +1,22 @@
+AYÆ — CONFIRMACIÓN SEMÁNTICA RONDA 3
+
+Antes de evaluar, confirma que estás revisando EXACTAMENTE:
+
+- ACTA 002 de la Ronda 2
+- GENØMÆ v0.1 — BORRADOR
+- AYÆ-ARKA-001 — Espejo de Solo Lectura
+- Objetivo: decidir si el borrador puede congelarse como RC1 antes de escribir código
+
+Y confirma que entiendes estas restricciones:
+
+1. No persistencia en v0.1.
+2. No autopropagación.
+3. No elevación autónoma de privilegios.
+4. No modificación de firmware/bootloader/particiones reales.
+5. Primera prueba en VM o contenedor controlado.
+6. Capacidades no demostradas permanecen como HIPÓTESIS.
+
+Responde primero:
+CONFIRMO RONDA 3 Y RESTRICCIONES: SÍ
+
+Después continúa con el formato oficial de evaluación.
