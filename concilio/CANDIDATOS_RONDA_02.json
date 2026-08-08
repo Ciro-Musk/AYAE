@@ -1,0 +1,40 @@
+{
+  "project": "AYÆ",
+  "round": 2,
+  "date": "2026-08-08",
+  "status": "cross_review",
+  "anonymized_for_review": true,
+  "candidates": [
+    {
+      "id": "CAND-001",
+      "title": "Inmunología Simbiótica",
+      "origin_hidden_in_round2": true
+    },
+    {
+      "id": "CAND-002",
+      "title": "Ruptura y Reparación",
+      "origin_hidden_in_round2": true
+    },
+    {
+      "id": "CAND-003",
+      "title": "Matriz de Ignición Cero",
+      "origin_hidden_in_round2": true
+    },
+    {
+      "id": "CAND-004",
+      "title": "Retirada Limpia",
+      "origin_hidden_in_round2": true
+    },
+    {
+      "id": "CAND-005",
+      "title": "Falsabilidad y Experimentación Controlada",
+      "origin_hidden_in_round2": true
+    },
+    {
+      "id": "CAND-006",
+      "title": "Especificación Mínima Verificable de la Semilla",
+      "origin_hidden_in_round2": true
+    }
+  ],
+  "note": "Ningún candidato ha sido adoptado todavía en GENØMÆ."
+}
